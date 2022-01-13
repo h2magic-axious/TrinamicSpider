@@ -9,9 +9,9 @@ from Memory import FileSystem
 
 
 class CONST:
-    USERNAME = 'nickname'
-    PASSWORD = 'Ignore009'
-    ROOT_URL = 'https://chiplinkstech.com'
+    USERNAME = 'xxx'
+    PASSWORD = 'xxx'
+    ROOT_URL = 'xxx'
     XML_API = ROOT_URL + '/xmlrpc.php'
     JSON_API = ROOT_URL + '/wp-json/wp/v2'
     AUTHOR = 17
@@ -125,36 +125,35 @@ if __name__ == '__main__':
 
     # result[ 标贴 ] = post_id
 
-    file = open("record1.txt", 'w', encoding='utf-8')
+    with open("record1.txt", 'w', encoding='utf-8') as file_handle:
 
-    for title, post_id in result.items():
-        post_url = f"{CONST.JSON_API}/posts/{post_id}"
-        post_response = requests.get(post_url)
-        if post_response.status_code != 200:
-            file.writelines(f"{title} is bed, Link: {post_url}")
-            continue
-
-        data = post_response.json()
-        print(f"Parse: {post_url}")
-        post_soup = BeautifulSoup(data['content']['rendered'], 'lxml')
-        tag_a_list = [a['href'] for a in post_soup.find_all('a')]
-        tag_img_list = [img['src'] for img in post_soup.find_all('img')]
-
-        url_list = []
-
-        for link in tag_a_list + tag_img_list:
-            print(f" {title}: Check link: {link}")
-            if '#' in link:
-                continue
-            check_response = requests.get(link)
-            if check_response.status_code != 200:
-                url_list.append(link)
-                print(f"  {title}, {data['link']}: {link} is failed")
+        for title, post_id in result.items():
+            post_url = f"{CONST.JSON_API}/posts/{post_id}"
+            post_response = requests.get(post_url)
+            if post_response.status_code != 200:
+                file_handle.writelines(f"{title} is bed, Link: {post_url}")
                 continue
 
-        if url_list:
-            file.writelines(f"{title}:{data['link']} failed urls:\n")
-            for ul in url_list:
-                file.writelines(f"    {ul}\n")
+            data = post_response.json()
+            print(f"Parse: {post_url}")
+            post_soup = BeautifulSoup(data['content']['rendered'], 'lxml')
+            tag_a_list = [a['href'] for a in post_soup.find_all('a')]
+            tag_img_list = [img['src'] for img in post_soup.find_all('img')]
 
-    file.close()
+            url_list = []
+
+            for link in tag_a_list + tag_img_list:
+                print(f" {title}: Check link: {link}")
+                if '#' in link:
+                    continue
+                check_response = requests.get(link)
+                if check_response.status_code != 200:
+                    url_list.append(link)
+                    print(f"  {title}, {data['link']}: {link} is failed")
+                    continue
+
+            if url_list:
+                file_handle.writelines(f"{title}:{data['link']} failed urls:\n")
+                for ul in url_list:
+                    file_handle.writelines(f"    {ul}\n")
+

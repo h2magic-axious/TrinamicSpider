@@ -4,8 +4,8 @@ from Downloader import DownloadMemory
 
 
 class CONST:
-    AK = 'DmTlI2aO1kvctWx1Nl93LrLsGVeJt6s5u2AzzXsO'
-    SK = '6nqczhLsD_0kf6jrNYeoIf9z5euCcfNCaLsikPGG'
+    AK = 'xxx'
+    SK = 'xxx'
     BUCKET_NAME = 'tmc-item'
 
 
