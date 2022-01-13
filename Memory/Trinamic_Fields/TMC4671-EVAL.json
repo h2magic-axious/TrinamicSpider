@@ -1,0 +1,1 @@
+{"TMC4671-EVAL": {"Status": "active", "Motor Supply": "", "Phase Current, RMS": "", "Microsteps": "", "SPI": "Yes", "UART": "Yes", "closed loop control": "Yes", "FOC": "Yes", "position mode": "Yes", "velocity mode": "Yes", "dual encoder": "Yes", "picture": "https://trinamic.com/fileadmin/assets/Products/Eval_Images/TMC4671-EVAL_V1.2.jpg"}}

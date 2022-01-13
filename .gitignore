@@ -1,0 +1,10 @@
+.idea/
+__pycache__/
+
+*.py[cow]
+*.so
+*.o
+
+Memory/Download_Resource/
+
+.qiniu_pythonsdk_hostscache.json

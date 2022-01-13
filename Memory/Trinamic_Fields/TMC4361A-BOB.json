@@ -1,0 +1,1 @@
+{"TMC4361A-BOB": {"Status": "active", "Motor Supply": "3.3\u20265V", "Phase Current, RMS": "", "Microsteps": "1\u2026256", "a/b/n incremental": "Yes", "SPI": "Yes", "Step/Dir": "Yes", "closed loop control": "Yes", "DcStep\u2122": "Yes", "ChopSync\u2122": "Yes", "picture": "https://trinamic.com/fileadmin/assets/Products/Eval_Images/TMC4361-BOB.jpg"}}

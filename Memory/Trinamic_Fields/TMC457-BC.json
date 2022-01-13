@@ -1,0 +1,1 @@
+{"TMC457-BC": {"Status": "active", "Axes": "1", "Motor Supply": "", "Microsteps": "1\u20262048", "a/b/n incremental": "Yes", "SPI": "Yes", "Step/Dir": "Yes", "advanced S-shaped": "Yes", "trapezoidal": "Yes", "microstep table": "Yes", "Phase Current, RMS": "", "Package": "FBGA144 (13x13)", "picture": "https://trinamic.com/fileadmin/assets/Products/ICs_Images/Tmc457-BC.jpg"}}

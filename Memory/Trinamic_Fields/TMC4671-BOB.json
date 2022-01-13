@@ -1,0 +1,1 @@
+{"TMC4671-BOB": {"Status": "active", "Motor Supply": "", "Phase Current, RMS": "", "Microsteps": "", "a/b/n incremental": "Yes", "SPI": "Yes", "UART": "Yes", "closed loop control": "Yes", "FOC": "Yes", "position mode": "Yes", "velocity mode": "Yes", "dual encoder": "Yes", "picture": "https://trinamic.com/fileadmin/assets/Products/Eval_Images/TMC-4671-BOB_V1.2_retouched.jpg"}}

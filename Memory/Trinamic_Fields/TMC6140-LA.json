@@ -1,0 +1,1 @@
+{"TMC6140-LA": {"Status": "preview", "Axes": "1", "Motor Supply": "5\u202630V", "Microsteps": "", "UART": "Yes", "break before make": "Yes", "short detection": "Yes", "slope control": "Yes", "Phase Current, RMS": "1.0A", "Package": "QFN36 (5x6)", "picture": "https://trinamic.com/fileadmin/assets/Products/ICs_Images/TMC6140-LA.jpg"}}

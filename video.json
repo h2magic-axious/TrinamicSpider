@@ -1,0 +1,112 @@
+{
+  "Trinamic's API Explained": {
+    "url": "https://youtu.be/1eMocm__hO0",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/1/7/csm_TMC_API_BK_V2.00_00_02_23.Still011_d040d3c785.jpg",
+    "except": "In this video, Brian Kostecka explains what the Advanced Programming Interface (API) is and how to use it to your benefit."
+  },
+  "How To Set Up a TMC4671": {
+    "url": "https://www.youtube.com/watch?v=g2BHEdvW9bU",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/1/f/csm_How_To_TMC4671_Part_1_c79b6f228a.jpg",
+    "except": "Oct 1, 2018  In this video, Onno explains how to set up the TMC4671, Trinamic's FOC servo controller."
+  },
+  "How to use graphs": {
+    "url": "https://www.youtube.com/watch?v=DLRblB8DZ7k",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/9/d/csm_Graphs_with_TMCL-IDE_c685ba46aa.png",
+    "except": "Jul 16, 2018  In this video, Field Application Engineer Thomas Ernst explains you how to use graphs and log data in a few easy steps with our TMCL-IDE. This allows for easy evaluation of Trinamic's TMCL products."
+  },
+  "TMC2208 for A4988": {
+    "url": "https://youtu.be/eIBICCzayio",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/6/5/csm_How_to_replace_the_A4988_7f35f88552.png",
+    "except": "Apr 24, 2018  This short video shows step by step how easy it is to replace the Allegro A4988 with Trinamic's TMC2208 legacy stepper driver."
+  },
+  "Raspberry Pi and TMC5160": {
+    "url": "http://blog.trinamic.com/2018/04/09/realtime-motor-and-motion-control-with-a-raspberry-pi-without-a-realtime-os/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/8/9/csm_Raspberry_Pi_without_a_real-time_OS_d53ec4d284.jpg",
+    "except": "Apr 8, 2018  This blog post explains how to use the Raspberry Pi for real-time motor and motion control using the TMC5160-BOB. The wiring will be limited to the basic functionality for communication via SPI."
+  },
+  "TMC5160 & Raspberry Pi": {
+    "url": "http://blog.trinamic.com/2018/02/19/stepper-motor-with-tmc5160/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/9/5/csm_TMC5160_by_using_TRINAMIC_s_API_on_a_Raspberry_Pi_d8271df78f.jpg",
+    "except": "Feb 18, 2018  This blog post explains how to connect the TMC5160-BOB to the Raspberry Pi using Trinamic's API. The API minimizes the software effort required for driving stepper motors."
+  },
+  "Homing Applications": {
+    "url": "https://youtu.be/xsoZxH9aRGw",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/e/5/csm_Homing_Applications_bb60289bb3.png",
+    "except": "Oct 3, 2017  In this short how-to video, one of our Field Application Engineers explains why applications need homing and how this can be done reliable and precise."
+  },
+  "Arduino Mega with UART": {
+    "url": "http://blog.trinamic.com/2017/08/02/how-to-drive-a-stepper-motor-via-uart-with-your-arduino-mega-using-a-tmc5072-eval/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/f/9/csm_UART_with_your_Arduino_Mega_using_a_TMC5072-EVAL_aae74d85e2.jpg",
+    "except": "Aug 1, 2017  This guide explains how to drive a stepper motor via UART using an Arduino Mega and TMC5072-EVAL. All that's needed is Single Wire UART to connect the TMC5072-EVAL with the Arduino Mega."
+  },
+  "Adruino+TMC4361A+TMC2130": {
+    "url": "http://blog.trinamic.com/2017/06/27/how-to-drive-a-stepper-motor-closed-loop-with-your-arduino-uno-using-a-tmc4361a-eval-tmc2130-eval/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/2/a/csm_Arduino_Uno_using_a_TMC4361A-EVAL___TMC2130-EVAL_2892ed9310.jpg",
+    "except": "Jun 26, 2017  Explained step by step, this post explains how to wire up the TMC4361A-EVAL + TMC2130-EVAL combination to drive a stepper motor closed loop with an Arduino Uno."
+  },
+  "TMC2100 SilentStepStick": {
+    "url": "https://youtu.be/c3v9E1AwDBE",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/5/5/csm_TMC2100_SilentStepStick_0d5b178fa6.png",
+    "except": "May 28, 2017  In this video, one of our Field Application Engineers explains how to adjust the SilentStepStick for StealthChop in a few easy to follow steps."
+  },
+  "TMCL Creator": {
+    "url": "https://youtu.be/wMrv60LYTTw",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/2/e/csm_TMCL_Creator_1_ee6142a34e.png",
+    "except": "Apr 23, 2017  In this video, we explain step by step how to use the TMCL Creator. The Creator is part of the TMCL-IDE and allows for quick coding of Trinamic's modules and ICs."
+  },
+  "TMCM-3212": {
+    "url": "https://youtu.be/JfUQBoc-eYU",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/5/2/csm_TMCM-3212_cc4aa673a5.png",
+    "except": "Apr 9, 2017  This video explains how to use the TMCM-3212 module for 3 axis stepper motor control with the TMCL-IDE."
+  },
+  "Raspberry + TMC5130-EVAL": {
+    "url": "http://blog.trinamic.com/2017/04/07/how-to-use-tmc5130-eval-with-your-raspberry-pi-32/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/b/4/csm_raspi3_tmc5130_c86b455419.jpg",
+    "except": "Apr 6, 2017  This start-up guide explains how to connect a Raspberry Pi 2 or 3 for basic operation of the TMC5130-EVAL board."
+  },
+  "Arduino Mega + TMC5130": {
+    "url": "http://blog.trinamic.com/2017/04/05/how-to-use-tmc5130-eval-with-your-arduino-mega/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/8/a/csm_tmc5130_arduino_fb43b59831.jpg",
+    "except": "Apr 4, 2017  Using just a few wires including an SPI port, you can control the TMC5130-EVAL with your Arduino Mega. This guide explains you how to get started."
+  },
+  "TMC2130 SilentStepStick": {
+    "url": "http://blog.trinamic.com/2017/01/22/get-started-with-your-tmc2130-silentstepstick/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/e/e/csm_TMC2130_SilentStepStick_d422041469.png",
+    "except": "Jan 21, 2017  In this sample how-to, Stephan Watterott explains how to get started with your TMC2130 SilentStepStick on your Arduino."
+  },
+  "Motion Wizzard": {
+    "url": "https://www.youtube.com/watch?v=18c1tp7TWTA&feature=youtu.be",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/e/6/csm_bldc_wizzard_ce8b08e5a6.jpg",
+    "except": "Jul 17, 2016  This Video shows in easy to follow steps, how to get started with the Trinamic Encoder Wiring Wizard for BLDC / PMSM Modules and one of Trinamics Eval Boards for BLDC / PMSM Modules  the TMCC160 Eval."
+  },
+  "Hall Sensors": {
+    "url": "https://www.youtube.com/watch?v=MASVD_2tNuo&feature=youtu.be",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/6/6/csm_hall_sensors_25d2d8961d.jpg",
+    "except": "Jul 17, 2016  This Video shows in easy to follow steps, how to get started with the Trinamic Hall Sensor Wiring Wizard for BLDC / PMSM Modules and one of Trinamics Eval Boards for BLDC Modules  the TMCC160."
+  },
+  "motionCookie": {
+    "url": "https://youtu.be/aetW8u9Jc3g",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/5/2/csm_tmcc160_7effdf30cf.jpg",
+    "except": "Jun 19, 2016  This videos shows in easy to follow steps how to get started with the Trinamic TMCC160 EVAL KIT and the Trinamic TMCL-IDE Interface."
+  },
+  "Positioning": {
+    "url": "https://www.youtube.com/watch?v=MK-KMcE6ATE&feature=youtu.be",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/e/c/csm_video_tmc5130_positioning_da53bb8b4d.jpg",
+    "except": "Jun 12, 2016  This video shows in easy to follow steps how to position a stepper motor with Trinamic TMCL-IDE Interface and Trinamic TMC5130 EVAL KIT."
+  },
+  "Modular Eval System": {
+    "url": "https://www.youtube.com/watch?v=x-kczJx62S0&feature=youtu.be",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/c/6/csm_modular_eval_system_aa5270ff66.jpg",
+    "except": "Jan 7, 2016  In this session Thomas explains how our Trinamic Modular Evaluation System works, so lean back and relax."
+  },
+  "StallGuard Interrupt": {
+    "url": "http://blog.trinamic.com/2015/12/05/tmcl-using-the-stallguard-interrupt/",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/7/7/csm_TMCL_Screen_30b068bf48.png",
+    "except": "Dec 4, 2015  This blog post explains how to use the StallGuard interrupt via Trinamic's TMCL. Please note the added comment below the post for more information."
+  },
+  "TMC5130 EVAL KIT": {
+    "url": "https://youtu.be/V-P01MfBkc4",
+    "img": "https://www.trinamic.com/fileadmin/_processed_/b/b/csm_video_tmc5130_1adf63ec9b.jpg",
+    "except": "Nov 15, 2015  This video shows in easy to follow steps how to make a stepper motor turn with Trinamic TMC5130 EVAL KIT."
+  }
+}

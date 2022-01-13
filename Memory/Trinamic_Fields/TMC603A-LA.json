@@ -1,0 +1,1 @@
+{"TMC603A-LA": {"Status": "active", "Axes": "1", "Motor Supply": "12\u202650V", "Microsteps": "", "PWM": "Yes", "break before make": "Yes", "short detection": "Yes", "slope control": "Yes", "Current Sense": "Yes", "Phase Current, RMS": "", "Package": "QFN52 (8x8)", "picture": "https://trinamic.com/fileadmin/assets/Products/ICs_Images/tmc603a-la.jpg"}}

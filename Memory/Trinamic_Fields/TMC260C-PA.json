@@ -1,0 +1,1 @@
+{"TMC260C-PA": {"Status": "Active", "Axes": "1", "Motor Supply": "9\u202640V", "Microsteps": "1\u2026256", "SPI": "Yes", "Step/Dir": "Yes", "StallGuard2\u2122": "Yes", "CoolStep\u2122": "Yes", "SpreadCycle\u2122": "Yes", "Phase Current, RMS": "1.4A", "Package": "LQFP44 (10x10)", "picture": "https://trinamic.com/fileadmin/assets/Products/ICs_Images/tmc260c-pa.jpg"}}

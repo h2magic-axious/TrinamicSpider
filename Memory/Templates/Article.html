@@ -1,0 +1,50 @@
+<div id="output_wrapper_id" class="output_wrapper">
+    <h2 id="h{{ model }}">{{ model }}</h2>
+    <figure><img title="{{ model }}" src="{{ picture }}"
+                 alt="{{ model }}"/>
+        <figcaption style="margin-top: 10px; text-align: center; color: #999999; font-size: 0.7em;">
+        </figcaption>
+    </figure>
+    <h2 id="h">简介</h2>
+    <p>
+        {{ excerpt }}
+    </p>
+
+    {% if fields %}
+    <h2 id="h-1">主要参数</h2>
+    <ul>
+        <table style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px; display: table; width: 100%; text-align: left;">
+            {% for field, value in fields.items() %}
+            <tbody>
+            <tr>
+                <td>{{ field }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+    </ul>
+    {% endif %}
+
+    {% if images %}
+    <h2 id="h-2">原理图/引脚</h2>
+    {% for image in images %}
+    <figure><img title="" src="{{ image }}"
+                 alt=""/>
+        <figcaption style="margin-top: 10px; text-align: center; color: #999999; font-size: 0.7em;"></figcaption>
+    </figure>
+    {% endfor %}
+    {% endif %}
+
+    {% if resources %}
+    <h2 id="h-4">下载</h2>
+    {% for file_type, file_element in resources.items() %}
+    <h3>{{ file_type }}</h3>
+    <ol>
+        {% for media_excerpt, media_url in file_element %}
+        <li><a href="{{ media_url }}">{{ media_excerpt }}</a></li>
+        {% endfor %}
+    </ol>
+    {% endfor %}
+    {% endif %}
+</div>

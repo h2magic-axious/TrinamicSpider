@@ -1,0 +1,205 @@
+{
+  "TMCS-28-6.35-10000-AT-01": {
+    "excerpt": "步进电机具有出色的低速性能，因此在需要伺服的情况下通常是一个不错的选择，但由于某些原因，变速箱并没有好处。 凭借高极数的步进电机，伺服电机可与高分辨率编码器一起更好地工作。\n\nTMCS-28是一款低成本，小型光学增量编码器，可与步进电机和三相PMSM / BLDC电机一起使用。 它带有高分辨率光学码盘，分辨率高达10K线。\n\nTMCS-28-6.35-10000和TMSC-28-6.35-1024的轴直径为6.35毫米。",
+    "fields": {
+      "状态": "量产",
+      "Resolution": "40000 increments",
+      "Hollow Diameter": "6mm",
+      "Housing Diameter": "28mm",
+      "Level": "TTL",
+      "a/b/n incremental": "Yes"
+    },
+    "picture": "TMCS-28.jpg",
+    "images": [
+      "TMCS-BD.png"
+    ],
+    "resource": {
+      "Datasheet": [
+        [
+          "TMCS-28 Datasheet Rev 1.50",
+          "TMCS-28_datasheet_Rev1.60.pdf"
+        ]
+      ],
+      "Drawings": [
+        [
+          "TMCS-28 3D File",
+          "TMCS-28.step"
+        ]
+      ],
+      "Application Notes": [
+        [
+          "Application Note 050 - TMCS-XX Encoder Mounting Manual",
+          "AN050_-_TMCS-XX_Mounting_Manual.pdf"
+        ]
+      ]
+    }
+  },
+  "TMCS-28-6.35-1024-AT-01": {
+    "excerpt": "步进电机具有出色的低速性能，因此在需要伺服的情况下通常是一个不错的选择，但由于某些原因，变速箱并没有好处。 凭借高极数的步进电机，伺服电机可与高分辨率编码器一起更好地工作。\n\nTMCS-28是一款低成本，小型光学增量编码器，可与步进电机和三相PMSM / BLDC电机一起使用。 它带有高分辨率光学码盘，分辨率高达10K线。\n\nTMCS-28-6.35-10000和TMSC-28-6.35-1024的轴直径为6.35毫米。",
+    "fields": {
+      "状态": "量产",
+      "Resolution": "4096 increments",
+      "Hollow Diameter": "5mm",
+      "Housing Diameter": "28mm",
+      "Level": "TTL",
+      "a/b/n incremental": "Yes"
+    },
+    "picture": "TMCS-28.jpg",
+    "images": [
+      "TMCS-BD.png"
+    ],
+    "resource": {
+      "Datasheet": [
+        [
+          "TMCS-28 Datasheet Rev 1.50",
+          "TMCS-28_datasheet_Rev1.60.pdf"
+        ]
+      ],
+      "Drawings": [
+        [
+          "TMCS-28 3D File",
+          "TMCS-28.step"
+        ]
+      ],
+      "Application Notes": [
+        [
+          "Application Note 050 - TMCS-XX Encoder Mounting Manual",
+          "AN050_-_TMCS-XX_Mounting_Manual.pdf"
+        ]
+      ]
+    }
+  },
+  "TMCS-40-6.35-10000-AT-01": {
+    "excerpt": "步进电机具有出色的低速性能，因此在需要伺服的情况下通常是一个不错的选择，但由于某些原因，变速箱并没有好处。 凭借高极数的步进电机，伺服电机可与高分辨率编码器一起更好地工作。\n\nTMCS-28是一款低成本，小型光学增量编码器，可与步进电机和三相PMSM / BLDC电机一起使用。 它带有高分辨率光学码盘，分辨率高达10K线。\n\nTMCS-28-6.35-10000和TMSC-28-6.35-1024的轴直径为6.35毫米。",
+    "fields": {
+      "状态": "量产",
+      "Resolution": "40000 increments",
+      "Hollow Diameter": "6mm",
+      "Housing Diameter": "40mm",
+      "Level": "TTL",
+      "a/b/n incremental": "Yes"
+    },
+    "picture": "TMCS-40.jpg",
+    "images": [
+      "TMCS-BD.png"
+    ],
+    "resource": {
+      "Datasheet": [
+        [
+          "TMCS-40 Datasheet Rev1.30",
+          "TMCS-40_datasheet_Rev1.30.pdf"
+        ]
+      ],
+      "Drawings": [
+        [
+          "TMCS-40 3D File",
+          "TMCS-40.step"
+        ]
+      ],
+      "Application Notes": [
+        [
+          "Application Note 050 - TMCS-XX Encoder Mounting Manual",
+          "AN050_-_TMCS-XX_Mounting_Manual.pdf"
+        ]
+      ]
+    }
+  },
+  "TMC223-LI": {
+    "excerpt": "TMC223是组合式微步进步进电机运动控制器和驱动器，具有RAM和OTP存储器以及集成的无传感器失速检测。 RAM或OTP存储器用于存储电动机参数和配置设置。 TMC223允许多达四位的微步进和高达800 mA的线圈电流。 初始化后，它将根据目标位置和速度参数自动执行所有时间紧迫的任务。 通过两线串行接口与主机进行通信。 TMC223与廉价的微控制器一起构成了完整的运动控制系统。 TMC223完全向上兼容TMC222。",
+    "fields": {
+      "Follow up product": "TMC5130A-TA",
+      "Motor Supply": "8...29V",
+      "Axes": 1,
+      "Phase Current, Peak": "0.8A",
+      "IIC": "Yes"
+    },
+    "picture": "TMC223-LI.jpg",
+    "images": [
+      "TMC223-V2.svg",
+      "TMC223.svg"
+    ],
+    "resource": {
+      "Datasheet": [
+        [
+          "TMC223 Datasheet",
+          "TMC223_datasheet_Rev1.06.pdf"
+        ]
+      ],
+      "Application Notes": [
+        [
+          "Application Note 027 - Extending the positioning range",
+          "AN027_TMC22x_extend_Position_range.pdf"
+        ],
+        [
+          "Application Note 005h - QFN32 (7x7)",
+          "AN005h-IC_Package_PCB_Footprint_Guidelines_QFN32_7x7.pdf"
+        ],
+        [
+          "Application Note 005m - SO20 (13x10)",
+          "AN005m-IC_Package_PCB_Footprint_Guidelines_SO20_SOIC20.pdf"
+        ]
+      ],
+      "Quality": [
+        [
+          "Statement concerning RoHS compliance of TMC223",
+          "TMC223_RoHS.pdf"
+        ]
+      ],
+      "PCNs": [
+        [
+          "EOL 2019-11-01 TMC223",
+          "EOL_2019-11-01_TMC223.pdf"
+        ]
+      ]
+    }
+  },
+  "TMC223-SI": {
+    "excerpt": "TMC223是组合式微步进步进电机运动控制器和驱动器，具有RAM和OTP存储器以及集成的无传感器失速检测。 RAM或OTP存储器用于存储电动机参数和配置设置。 TMC223允许多达四位的微步进和高达800 mA的线圈电流。 初始化后，它将根据目标位置和速度参数自动执行所有时间紧迫的任务。 通过两线串行接口与主机进行通信。 TMC223与廉价的微控制器一起构成了完整的运动控制系统。 TMC223完全向上兼容TMC222。",
+    "fields": {
+      "Follow up product": "TMC5130A-TA",
+      "Motor Supply": "8...29V",
+      "Axes": 1,
+      "Phase Current, Peak": "0.8A",
+      "IIC": "Yes"
+    },
+    "picture": "TMC223-SI.jpg",
+    "images": [
+      "TMC223-V2.svg",
+      "TMC223.svg"
+    ],
+    "resource": {
+      "Datasheet": [
+        [
+          "TMC223 Datasheet",
+          "TMC223_datasheet_Rev1.06.pdf"
+        ]
+      ],
+      "Application Notes": [
+        [
+          "Application Note 027 - Extending the positioning range",
+          "AN027_TMC22x_extend_Position_range.pdf"
+        ],
+        [
+          "Application Note 005h - QFN32 (7x7)",
+          "AN005h-IC_Package_PCB_Footprint_Guidelines_QFN32_7x7.pdf"
+        ],
+        [
+          "Application Note 005m - SO20 (13x10)",
+          "AN005m-IC_Package_PCB_Footprint_Guidelines_SO20_SOIC20.pdf"
+        ]
+      ],
+      "Quality": [
+        [
+          "Statement concerning RoHS compliance of TMC223",
+          "TMC223_RoHS.pdf"
+        ]
+      ],
+      "PCNs": [
+        [
+          "EOL 2019-11-01 TMC223",
+          "EOL_2019-11-01_TMC223.pdf"
+        ]
+      ]
+    }
+  }
+}

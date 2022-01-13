@@ -1,0 +1,1 @@
+{"TMC7300-LA": {"Status": "active", "Axes": "2", "Motor Supply": "2\u202611V", "Microsteps": "", "UART": "Yes", "PWM (internal)": "Yes", "Current Limiter": "Yes", "Single & Dual Motor Option": "Yes", "Direct Phase Control": "Yes", "Phase Current, RMS": "2.0A", "Package": "QFN20 (3x3)", "picture": "https://trinamic.com/fileadmin/assets/Products/ICs_Images/TMC7300-LA.jpg"}}

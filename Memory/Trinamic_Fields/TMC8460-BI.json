@@ -1,0 +1,1 @@
+{"TMC8460-BI": {"Status": "active", "Axes": "", "Motor Supply": "", "Microsteps": "", "a/b/n incremental": "Yes", "PWM": "Yes", "SPI": "Yes", "Step/Dir": "Yes", "GPIO": "Yes", "2x MII": "Yes", "Distributed Clocks": "Yes", "Phase Current, RMS": "", "Package": "BGA VFGG400 (17x17)", "picture": "https://trinamic.com/fileadmin/assets/Products/ICs_Images/tmc8460-bi.jpg"}}
